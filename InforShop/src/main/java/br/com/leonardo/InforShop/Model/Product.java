@@ -1,4 +1,4 @@
-package br.com.leonardo.InforShop.model;
+package br.com.leonardo.InforShop.Model;
 
 import jakarta.persistence.*;
 import lombok.*;

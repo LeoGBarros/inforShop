@@ -1,6 +1,6 @@
-package br.com.leonardo.InforShop.controller;
+package br.com.leonardo.InforShop.Controller;
 
-import br.com.leonardo.InforShop.model.Product;
+import br.com.leonardo.InforShop.Model.Product;
 import br.com.leonardo.InforShop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

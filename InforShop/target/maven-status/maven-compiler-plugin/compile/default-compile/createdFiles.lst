@@ -1,0 +1,7 @@
+br\com\leonardo\InforShop\service\ProductService.class
+br\com\leonardo\InforShop\Controller\ProductController.class
+br\com\leonardo\InforShop\InforShopApplication.class
+br\com\leonardo\InforShop\dto\ProductRequestDTO.class
+br\com\leonardo\InforShop\repository\ProductRepository.class
+br\com\leonardo\InforShop\dto\ProductResponseDTO.class
+br\com\leonardo\InforShop\model\Product.class

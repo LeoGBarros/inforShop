@@ -1,6 +1,6 @@
-package br.com.leonardo.InforShop.repository;
+package br.com.leonardo.InforShop.Repository;
 
-import br.com.leonardo.InforShop.model.Product;
+import br.com.leonardo.InforShop.Model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
