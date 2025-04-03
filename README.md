@@ -13,18 +13,17 @@ A aplicação contempla:
 - ✅ **Estrutura baseada em Microsserviços**  
 - ✅ **Uso de práticas de Cloud com AWS**
 
-## ☁️ Arquitetura e Cloud
+## ☁️ Arquitetura e Cloud (Em desenvolvimento)
 
 - Estrutura baseada em **Microsserviços**
 - Deploy planejado com **Docker** e **AWS (ECS, S3, Lambda, API Gateway)**
 - Armazenamento de relatórios e arquivos via **Amazon S3**
 - Escalabilidade e resiliência com **práticas cloud-native**
 
-## 💳 Integrações de Pagamento
+## 💳 Integrações de Pagamento (Em desenvolvimento)
 
 Em andamento a implementação com gateways como:
 
-- **Stripe**
 - **PayPal**
 - **PagSeguro**
 
