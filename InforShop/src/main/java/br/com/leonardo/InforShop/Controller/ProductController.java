@@ -1,7 +1,9 @@
 package br.com.leonardo.InforShop.Controller;
 
 import br.com.leonardo.InforShop.Model.Product;
-import br.com.leonardo.InforShop.service.ProductService;
+import br.com.leonardo.InforShop.Service.ProductService;
+import br.com.leonardo.InforShop.dto.ProductRequestDTO;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,13 +28,23 @@ public class ProductController {
     }
 
     @PostMapping
-    public Product createProduct(@RequestBody Product product) {
+    public Product createProduct(@RequestBody @Valid ProductRequestDTO productDTO) {
+        Product product = new Product();
+        product.setName(productDTO.getName());
+        product.setPrice(productDTO.getPrice());
+        product.setStockQuantity(productDTO.getStockQuantity());
+        product.setDescription(productDTO.getDescription());
         return productService.saveProduct(product);
     }
 
     @PutMapping("/{id}")
-    public Product updateProduct(@PathVariable Long id, @RequestBody Product product) {
+    public Product updateProduct(@PathVariable Long id, @RequestBody @Valid ProductRequestDTO productDTO) {
+        Product product = new Product();
         product.setId(id);
+        product.setName(productDTO.getName());
+        product.setPrice(productDTO.getPrice());
+        product.setStockQuantity(productDTO.getStockQuantity());
+        product.setDescription(productDTO.getDescription());
         return productService.saveProduct(product);
     }
 

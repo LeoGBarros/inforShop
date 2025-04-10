@@ -28,6 +28,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
+
 		<!-- Spring Boot JPA (Banco de Dados) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,6 +41,16 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Validação -->
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
 		</dependency>
 
 		<!-- Lombok (para evitar boilerplate code) -->

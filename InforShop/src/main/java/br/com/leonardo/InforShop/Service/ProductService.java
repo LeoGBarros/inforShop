@@ -1,7 +1,7 @@
-package br.com.leonardo.InforShop.service;
+package br.com.leonardo.InforShop.Service;
 
-import br.com.leonardo.InforShop.model.Product;
-import br.com.leonardo.InforShop.repository.ProductRepository;
+import br.com.leonardo.InforShop.Model.Product;
+import br.com.leonardo.InforShop.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

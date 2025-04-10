@@ -20,7 +20,10 @@ public class Product {
 
     private String name;
     private Double price;
+    private Integer stockQuantity;
+    private String description;
     private LocalDateTime createdAt;
+
 
     @Transient
     private String formattedDate;
