@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@JsonIgnoreProperties(ignoreUnknown = false) // Rejeita campos não declarados no DTO
+
 public class ProductRequestDTO {
 
     @NotBlank(message = "Nome do produto é obrigatório")
